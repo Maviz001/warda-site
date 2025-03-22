@@ -1,0 +1,23 @@
+.service-box{
+    border-radius: 12px;
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+    margin: 0 10px;
+    min-height: 615px;
+}
+
+.service-content{
+    padding: 30px 30px 50px;
+    .h4 , p{
+        color: $white;
+    }
+    a{
+        @include fontCalcSize(18 , 15);
+        color: $white;
+        font-weight: 700;
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+    }
+}

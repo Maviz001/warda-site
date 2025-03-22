@@ -33,6 +33,7 @@ function doOnReady() {
 	// OnReady Functions
 	initHtmlReader();
 	initCarousel('.js-carousel', 3, 1, false, false);
+	initCarousel('.js-slider', 3, 1, false, false);
 	initCarousalNavFor('.js-navforimg-slider', 1, '.js-novfortxt-slider', 1, false);
 	headerFixed();
 	parallaxeffect('.js-parallax');

@@ -7,27 +7,27 @@ body {
 }
 
 p {
-    @include fontCalcSize(15, 12);
+    @include fontCalcSize(18, 15);
     color: $black;
-    font-weight: 400;
+    font-weight: 300;
     line-height: normal;
     margin: 0 0 20px 0;
 }
 
 .h3 {
-    @include fontCalcSize(44, 25);
+    @include fontCalcSize(48, 26);
     color: $black;
     font-weight: 700;
-    line-height: normal;
+    line-height: 1.2;
     margin: 0 0 20px 0;
 }
 
 .h4 {
-    @include fontCalcSize(36, 20);
+    @include fontCalcSize(35, 24);
     color: $black;
     font-weight: 700;
     line-height: normal;
-    margin: 0 0 20px 0;
+    margin: 0 0 10px 0;
 }
 
 .h5 {
@@ -52,4 +52,20 @@ p {
     &-12 {
         @include fontCalcSize(12, 12);
     }
+}
+
+.top-heading{
+    text-align: center;
+    margin-bottom: 30px;
+    p {
+        @include fontCalcSize(20, 16);
+        color: $iGray;
+        font-weight: 400;
+    }
+}
+
+.sub-heading{
+    @include fontCalcSize(24, 18);
+    font-weight: 400;
+    color: $iGray;
 }
