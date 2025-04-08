@@ -1,11 +1,11 @@
-<style type="text/css">
+<!-- <style type="text/css">
 	.loaderscreen {
 		position: fixed;
 		z-index: 99999;
 		width: 100%;
 		height: 100%;
 		background-color: #fff;
-		/* background-image: url('/assets/img/icons/ic-loading.gif'); */
+		background-image: url('/assets/img/icons/ic-loading.gif');
 		background-position: center;
 		background-repeat: no-repeat;
 	}
@@ -15,7 +15,7 @@
 			background-size: 10%;
 		}
 	}
-</style>
+</style> -->
 <div class="loaderscreen js-loaderscreen"></div>
 <header class="header js-fixed">
 	<div class="container">

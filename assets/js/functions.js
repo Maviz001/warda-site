@@ -26,7 +26,7 @@ $(window).on('scroll', function () {
 $(document).keyup(function (e) {
 	if (e.keyCode == 27) {
 		// Do on ESC press
-	}
+	} 
 });
 
 function doOnReady() {
@@ -39,8 +39,9 @@ function doOnReady() {
 	parallaxeffect('.js-parallax');
 	targetScroll();
 	tabsInit();
-	acordianInit();
+	initAccordian();
 	initTimer('.js-timer');
+	initCarousalNavFor('.js-content-slide', 1, '.js-list-slide', 7, false);
 	changeToSvg();
 	getCopyYear();
 	checkviewport('.js-viewport');
@@ -70,6 +71,11 @@ function doOnReady() {
             dropdownclose();
         }
     });
+	if(window.innerWidth < 992) {
+		initCarousel('.js-mobile-slider', 1, 1, false, false);
+		initCarousel('.js-mobile-slider2', 2, 1, false, false);
+		initCarousel('.js-mobile-slider3', 1, 1, false, false);
+	}
 }
 
 function doOnLoad() {
@@ -149,27 +155,19 @@ function tabsInit() {
     });
 }
 
-function acordianInit() {
-    $('body').on('click','.js-accor-link:not(.is-active)',function(e) {
-        e.preventDefault();
-        var $this = $(this);
-        var targetId = $this.attr('data-accor-id');
-        var accorsName = $this.attr('data-accor-name');
-        $('[data-accor-name="' + accorsName + '"]').removeClass('is-active');
-        $('[data-accor-name="' + accorsName + '"]').parents('.accor-row').removeClass('open-acordian');
-        $this.addClass('is-active');
-        $this.parents('.accor-row').addClass('open-acordian');
-        $this.parents('.accor-row').next('.accor-'+targetId).addClass('is-active');
-    }).on('click','.js-accor-link.is-active',function(e) {
-        e.preventDefault();
-        var $this = $(this);
-        var targetId = $this.attr('data-accor-id');
-        $this.removeClass('is-active');
-        $this.parents('.accor-row').removeClass('open-acordian');
-        $this.parents('.accor-row').next('.accor-'+targetId).removeClass('is-active');
+function initAccordian() {
+    $("body").on("click", ".accord-sec:not(.accord-open) .js-accordbtn", function() {
+        var e = $(this);
+        $(".accord-sec").removeClass("accord-open"),
+		$(".accord-content").slideUp(),
+		e.parent(".accord-sec").addClass("accord-open"),
+		e.parent(".accord-sec").find(".accord-content").slideDown()
+    }).on("click", ".accord-sec.accord-open .js-accordbtn", function() {
+        var e = $(this);
+        e.parent(".accord-sec").removeClass("accord-open"),
+		e.parent(".accord-sec").find(".accord-content").slideUp()
     });
 }
-
 function initCarousel(target, stshow, stscroll, centerstatus, dotstatus) {
 	var $target = $(target).not('.slick-initialized');
 	$target.each(function (i, e) {
@@ -213,7 +211,7 @@ function initCarousel(target, stshow, stscroll, centerstatus, dotstatus) {
 					slidesToShow: itemTablet
 				}
 			}, {
-				breakpoint: 375,
+				breakpoint: 476,
 				settings: {
 					slidesToShow: itemMobile
 					// arrows: false,
@@ -228,7 +226,7 @@ function initCarousalNavFor(target, slideShowFor, targetNavFor, slideShowNav, ce
     var $target = $(target).not('.slick-initialized');
     var $targetNav = $(targetNavFor).not('.slick-initialized');
     $target.on('init', function (event, slick, direction) {
-        console.log(slick.currentSlide + 1, slick.$slides.length);
+        // console.log(slick.currentSlide + 1, slick.$slides.length);
     });
     $target.each(function (i,e) {
 		var $e = $(e);
@@ -277,26 +275,35 @@ function initCarousalNavFor(target, slideShowFor, targetNavFor, slideShowNav, ce
             arrows: false,
             dots: false,
             asNavFor: target,
+            focusOnSelect: true,
             centerMode: centerStatus,
+			vertical: true, // Set vertical to true
+            verticalSwiping: true, // Enable vertical swiping
             responsive: [{
                 breakpoint: 1200,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 7,
                 }
             }, {
                 breakpoint: 992,
                 settings: {
                     slidesToShow: 1,
+					vertical: false, // Set vertical to false
+            		verticalSwiping: false,
                 }
             }, {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
+					vertical: false, // Set vertical to false
+            		verticalSwiping: false,
                 }
             }, {
                 breakpoint: 375,
                 settings: {
-                    slidesToShow: 1
+                    slidesToShow: 1,
+					vertical: false, // Set vertical to false
+            		verticalSwiping: false,
                 }
             }]
         });

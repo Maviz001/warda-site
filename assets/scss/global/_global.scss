@@ -1,0 +1,328 @@
+.flex-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    @media (max-width:991px) {
+        position: static;
+        margin: 0 auto 20px;
+    }
+}
+
+.flex {
+    &-42 {
+        flex: 0 0 42%;
+        max-width: 42%; 
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: relative;
+
+        &.left{
+            .rec-shape{
+                right: inherit;
+                left: 0;
+            }
+            .img-box{
+                right: -20px;
+                left: inherit;
+                box-shadow: 10px 0px 30px rgba(0,0,0,0.15)  ;
+            }
+        }
+
+        @media (max-width:991px) {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+    &-50 {
+        flex: 0 0 50%;
+        max-width: 50%;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+
+        @media (max-width:991px) {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+    &-58 {
+        flex: 0 0 58%;
+        max-width: 58%;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+
+        @media (max-width:991px) {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+}                
+
+.rec-shape{
+    position: absolute;
+    height: calc(100% + 60px);
+    top: -30px;
+    right: 0;
+    width: 135px;
+    z-index: -1;
+}
+
+.seo-page {
+    .bgc {
+        &-iPrimary {
+            background-color: $seo-primary !important;
+        }
+
+        &-iPink {
+            background-color: $seo-secondary !important;
+        }
+    }
+
+    .cl {
+        &-iPrimary {
+            color: $seo-primary !important;
+        }
+    }
+
+    .btn {
+        &.btn-primary {
+            background-color: $seo-primary;
+            border-color: $seo-primary;
+            font-weight: 700;
+        }
+    }
+    .service-head{
+        a{
+            font-weight: 600;
+            &:hover{
+                background-color: $seo-primary;
+            }
+        }
+    }
+    .blog-content{
+        a{
+            color: $seo-primary;
+            &:hover{
+                color: $iPrimary;
+            }
+        }
+    }
+    .news-form{
+        .btn-secondary{
+            background-color: $pink;
+            border-color: $pink;
+        }
+    }
+}
+
+.web-page {
+    .bgc {
+        &-iPrimary {
+            background-color: $web-primary !important;
+        }
+
+        &-iPink {
+            background-color: $seo-secondary !important;
+        }
+    }
+
+    .cl {
+        &-iPrimary {
+            color: $web-primary !important;
+        }
+    }
+
+    .btn {
+        &.btn-primary {
+            background-color: $web-primary;
+            border-color: $web-primary;
+            font-weight: 700;
+        }
+        &.btn-white {
+            color: $web-primary;
+        }
+    }
+    .service-head{
+        a{
+            font-weight: 600;
+            &:hover{
+                background-color: $web-primary;
+            }
+        }
+    }
+    .blog-content{
+        a{
+            color: $web-primary;
+            &:hover{
+                color: $iPrimary;
+            }
+        }
+    }
+    // .news-form{
+    //     .btn-secondary{
+    //         background-color: $pink;
+    //         border-color: $pink;
+    //     }
+    // }
+}
+
+.content-marketing-page {
+    .bgc {
+        &-iPrimary {
+            background-color: $seagreen !important;
+        }
+
+        &-iPink {
+            background-color: $seo-secondary !important;
+        }
+    }
+
+    .cl {
+        &-iPrimary {
+            color: $seagreen !important;
+        }
+    }
+
+    .btn {
+        &.btn-primary {
+            background-color: $seagreen;
+            border-color: $seagreen;
+            font-weight: 700;
+        }
+        &.btn-white {
+            color: $seagreen;
+        }
+    }
+    .service-head{
+        a{
+            font-weight: 600;
+            &:hover{
+                background-color: $seagreen;
+            }
+        }
+    }
+    .blog-content{
+        a{
+            color: $seagreen;
+            &:hover{
+                color: $iPrimary;
+            }
+        }
+    }
+    // .news-form{
+    //     .btn-secondary{
+    //         background-color: $pink;
+    //         border-color: $pink;
+    //     }
+    // }
+}
+
+.ppc-page {
+    .bgc {
+        &-iPrimary {
+            background-color: $ppc-primary !important;
+        }
+
+        &-iPink {
+            background-color: $iSecondary !important;
+        }
+    }
+
+    .cl {
+        &-iPrimary {
+            color: $ppc-primary !important;
+        }
+    }
+
+    .btn {
+        &.btn-primary {
+            background-color: $ppc-primary;
+            border-color: $ppc-primary;
+            font-weight: 700;
+            color: $black;
+        }
+    }
+    .service-head{
+        a{
+            font-weight: 600;
+            &:hover{
+                background-color: $ppc-primary;
+                color: $black;
+            }
+        }
+    }
+    .blog-content{
+        a{
+            color: $ppc-primary;
+            &:hover{
+                color: $iPrimary;
+            }
+        }
+    }
+    .news-form{
+        .btn-secondary{
+            background-color: $iSecondary;
+            border-color: $iSecondary;
+        }
+    }
+}
+
+.ppc-page {
+    .bgc {
+        &-iPrimary {
+            background-color: $social-primary !important;
+        }
+    }
+
+    .cl {
+        &-iPrimary {
+            color: $social-primary !important;
+        }
+    }
+
+    .btn {
+        font-weight: 700;
+        &.btn-primary {
+            background-color: $social-primary;
+            border-color: $social-primary;
+            color: $black;
+        }
+        &.btn-white{
+            color: $social-primary;
+        }
+    }
+    .service-head{
+        a{
+            font-weight: 600;
+            &:hover{
+                background-color: $social-primary;
+            }
+        }
+    }
+    .blog-content{
+        a{
+            color: $social-primary;
+        }
+    }
+    .news-form{
+        .btn-secondary{
+            background-color: $ppc-secondary;
+            border-color: $ppc-secondary;
+        }
+    }
+}
+
+.social-sec{
+    .sec-img{
+        @media (max-width:991PX){
+            margin:10PX 0;
+        }
+    }
+}

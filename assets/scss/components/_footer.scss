@@ -3,14 +3,20 @@
     background-size: cover;
     padding: 0;
     position: relative;
+    background-color: #1E1E30;
 
     .footer-content {
-        padding-top: 100px;
+        padding-top: 50px;
         position: relative;
         padding-bottom: 50px;
 
         @media(max-width:991px) {
             padding-top: 50px;
+        }
+        @media(max-width:575px) {
+            padding-top: 30px;
+            padding-bottom: 30px;   
+            text-align: center;
         }
     }
 
@@ -19,14 +25,20 @@
         padding-top: 15px;
     }
 }
-
+.sec-footerbottom{
+    background-color: #232339;
+    padding-top: 40px;
+    @media(max-width:575px) {
+        padding-top: 20px;
+    }
+}
 .logo-widget {
     a {
         display: inline-block;
     }
 
     img {
-        height: 40px;
+        height: 32px;
     }
 
     p {
@@ -34,25 +46,26 @@
         color: $white;
         margin: 15px 0 0 0;
     }
+    margin-bottom: 20px;
 }
 
 .link-widget {
     .h5 {
-        @include fontCalcSize(18, 16);
+        @include fontCalcSize(17, 14);
         color: $white;
         font-family: $secondaryFont;
-        font-weight: 700;
-        margin: 25px 0 12px 0;
+        font-weight: 600;
+        margin: 0 0 20px 0;
         padding-top: 0;
     }
 
     ul {
         li {
-            margin-bottom: 12px;
+            margin-bottom: 7px;
             line-height: 21px;
 
             a {
-                @include fontCalcSize(18, 14);
+                @include fontCalcSize(13, 11);
                 color: $white;
                 display: inline-block;
                 font-weight: 400;
@@ -71,25 +84,72 @@
             }
         }
     }
+    @media (max-width:991px){
+        margin-bottom: 20px;
+    }
+}
+
+.social-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    .social-icon{
+        display: flex;
+        align-items: center;
+        .icon{
+            height: 32px;
+            width: 32px;
+            border: 1.5px solid $white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 5px;
+            border-radius: 50%;
+            i{
+                font-size: 15px;
+                color: $white;
+            }
+        }
+    }
+    @media(max-width: 991px) {
+        margin-bottom: 20px;
+    }
+    @media(max-width:575px) {
+        .rss-img{
+            display: none;
+        }
+        justify-content: center;
+        .social-icon{
+            .icon{
+                margin: 0 3px;
+            }
+        }
+    }
 }
 
 .sec-copyright {
-    padding: 14px 0;
-    background-color: $iPrimary;
+    padding: 20px 0;
+    border-top: 1px solid rgba(#D9D9D9, 0.25);
+    border-bottom: 1px solid rgba(#D9D9D9, 0.25);
 
     p {
         @include fontCalcSize(14, 12);
-        color: $black;
+        color: $white;
         margin: 0;
+        opacity: 0.8;
     }
 
     .copyright-links {
         margin-left: auto;
     }
 
-    @media(max-width: 767px) {
+    @media(max-width: 991px) {
+        padding: 15px 0;
         .fflex {
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 
         p {
@@ -112,11 +172,12 @@
         padding-left: 12px;
         margin-left: 12px;
         position: relative;
-        border-left: 1px solid $black;
+        border-left: 1px solid $white;
+        opacity: 0.8;
 
         a {
             @include fontCalcSize(14, 12);
-            color: $black;
+            color: $white;
             display: block;
             line-height: 14px;
 
@@ -135,4 +196,29 @@
             border-left: 0;
         }
     }
+    @media (max-width:991px){
+        display: block;
+        text-align: center;
+        li{
+            border: none;
+            padding: 0;
+            margin: 0 0 10px 0;
+            &:last-child{
+                margin: 0;
+            }
+        }
+    }
+}
+
+.disclaimer-sec{
+    padding: 30px 0 20px;
+    opacity: 0.25;
+    p{
+        @include fontCalcSize(14, 12);
+        margin: 0;
+        color: $white;
+    }
+    @media(max-width: 991px) {
+        padding: 20px 0 15px;
+}
 }

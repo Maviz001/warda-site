@@ -64,26 +64,31 @@
     button {
         &.slick-arrow {
             position: absolute;
-            background-color: transparent;
+            background-color: $iPrimary;
             border: none;
             top: 50%;
             transform: translateY(-50%);
             width: 55px;
             height: 55px;
+            border-radius: 50%;
             padding: 0;
-            left: 0;
-            margin: 0 75px;
+            left: -25px;
+            margin: 0;
             overflow: hidden;
             z-index: 2;
             opacity: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
 
             >i {
-                font-size: 14px;
-                color: $iPrimary;
+                font-size: 20px;
+                color: $white;
+                font-weight: 700;
             }
 
             &.slick-next {
-                right: 0;
+                right: -25px;
                 left: auto;
 
                 >i {
@@ -103,8 +108,9 @@
             }
 
             &:hover{
+                background-color: $iSecondary;
                 >i {
-                    color: $iSecondary;
+                    color: $black;
                 }
             }
         }

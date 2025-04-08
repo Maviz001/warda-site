@@ -12,6 +12,9 @@ p {
     font-weight: 300;
     line-height: normal;
     margin: 0 0 20px 0;
+    strong{
+        font-weight: 600;
+    }
 }
 
 .h3 {
@@ -23,7 +26,7 @@ p {
 }
 
 .h4 {
-    @include fontCalcSize(35, 24);
+    @include fontCalcSize(40, 24);
     color: $black;
     font-weight: 700;
     line-height: normal;
@@ -51,6 +54,20 @@ p {
 .f {
     &-12 {
         @include fontCalcSize(12, 12);
+    }
+}
+.fw{
+    &-400{
+        font-weight: 400 !important;
+    }
+    &-500{
+        font-weight: 500 !important;
+    }
+    &-600{
+        font-weight: 600 !important;
+    }
+    &-700{
+        font-weight: 700 !important;
     }
 }
 
