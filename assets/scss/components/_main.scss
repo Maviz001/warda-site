@@ -684,3 +684,32 @@
         }
     }
 }
+
+.print-sec{
+    .h3{
+        @include fontCalcSize(60 , 35);
+        color: $white;
+    }
+}
+
+.content-box{
+    border-radius: 12px;
+    background-color: $brand-secondary;
+    padding: 20px 10px;
+    text-align: center;
+    height: calc(100% - 30px);
+    margin: 15px 0;
+    h4,.h4{
+        margin-top: 30px;
+        color: $white;
+        @include fontCalcSize(32 , 22);
+        text-align: center;
+    }
+    .content-img{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    &.sty{
+        background-color: $brand-primary;
+    }
+}

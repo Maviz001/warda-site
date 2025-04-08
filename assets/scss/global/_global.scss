@@ -224,6 +224,66 @@
     // }
 }
 
+.brand-marketing-page {
+    .bgc {
+        &-iPrimary {
+            background-color: $brand-primary !important;
+        }
+
+        &-iPink {
+            background-color: $seo-secondary !important;
+        }
+    }
+
+    .cl {
+        &-iPrimary {
+            color: $brand-primary !important;
+        }
+    }
+
+    .btn {
+        &.btn-primary {
+            background-color: $brand-primary;
+            border-color: $brand-primary;
+            font-weight: 700;
+        }
+        &.btn-white {
+            color: $brand-primary;
+        }
+    }
+    .service-head{
+        a{
+            font-weight: 600;
+            &:hover{
+                background-color: $brand-primary;
+            }
+        }
+    }
+    .flex-42{
+        height: 500px;
+        @media (max-width:991px){
+            height: auto;
+        }
+    }
+    .approach-sec{
+        background-color: #DBEAFE;
+    }
+    .blog-content{
+        a{
+            color: $brand-primary;
+            &:hover{
+                color: $iPrimary;
+            }
+        }
+    }
+    // .news-form{
+    //     .btn-secondary{
+    //         background-color: $pink;
+    //         border-color: $pink;
+    //     }
+    // }
+}
+
 .ppc-page {
     .bgc {
         &-iPrimary {
@@ -274,7 +334,7 @@
     }
 }
 
-.ppc-page {
+.social-page {
     .bgc {
         &-iPrimary {
             background-color: $social-primary !important;

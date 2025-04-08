@@ -193,6 +193,7 @@ function initCarousel(target, stshow, stscroll, centerstatus, dotstatus) {
 			centerMode: centerstatus,
 			centerPadding: '60px',
 			dots: dotstatus,
+			adaptiveHeight: true,
 			autoplay: true,
 			autoplaySpeed: 1000,
 			responsive: [{
