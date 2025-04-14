@@ -14,7 +14,7 @@
 <body>
 	<!--#include virtual="/includes/header.asp" -->
 
-	<div class="banner">
+	<div class="banner gradient-1">
 		<div class="container">
             <div class="banner-img bg-detail" style="background-image: url(/assets/img/bg/home-bg.jpg);">
                 <div class="overlay banner"></div>

@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!--#include virtual="/includes/brand-info.asp"-->
-	<title>Seo Services | <%=brandName%></title>
+	<title>PPC Management | <%=brandName%></title>
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 	<!--#include virtual="/includes/style.asp"-->
@@ -14,15 +14,18 @@
 <body class="ppc-page">
 	<!--#include virtual="/includes/header.asp" -->
 
-	<div class="banner-inner bg-detail" style="background-image: url(/assets/img/bg/ppc-bg.jpg);">
-		<div class="container h-100">
-            <div class="row h-100 align-content-center">
-                <div class="col-lg-9">
-                    <div class="banner-content">
-                        <div class="sm-heading cl-iPrimary">ppc advertising for google adwords</div>
-                        <h1 class="h1">Turn Clicks into Customers with <br><br class="d-block d-lg-none"><span class="bgc-iPrimary">Expert PPC Management</span></h1>
-                        <p>Want to see your business scale and convert like never before? Let’s turn your PPC campaigns into a profit machine. We don’t just drive traffic; we drive results. </p>
-                        <p>With our PPC management expertise, we’ll have your brand popping up everywhere—at the right time, to the right people.</p>
+	<div class="banner gradient-3">
+		<div class="container">
+            <div class="banner-img bg-detail" style="background-image: url(/assets/img/bg/ppc-bg.jpg);">
+                <div class="overlay ppc"></div>
+                <div class="row">
+                    <div class="col-lg-10">
+                        <div class="banner-content">
+                            <h1 class="h1"><strong><i>Turn Clicks into Customers</i> with Expert PPC Management</strong></h1>
+                            <p><strong>Want to see your business scale and convert like never before? Let’s turn your PPC campaigns into a profit machine. We don’t just drive traffic; we drive results. </strong></p>
+                            <p>With our PPC management expertise, we’ll have your brand popping up everywhere—at the right time, to the right people.</p>
+                            <a href="javascript:;" class="btn btn-secondary">Upgrade My Biz</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -142,7 +145,7 @@
                         </div>
                         <p>Simplify the process of <br>operating your business.</p>
                     </div>
-                    <img src="/assets/img/mix/seo-img-4.jpg" class="img-responsive" alt="">
+                    <img src="/assets/img/mix/ppc-img-2.jpg" class="img-responsive" alt="">
                 </div>
             </div>
             <div class="container">
@@ -171,7 +174,7 @@
                         </div>
                         <p>We've made dreams a reality <br>for 2M+ entrepreneurs.</p>
                     </div>
-                    <img src="/assets/img/mix/seo-img-5.jpg" class="img-responsive" alt="">
+                    <img src="/assets/img/mix/ppc-img-3.jpg" class="img-responsive" alt="">
                 </div>
                 <div class="flex-58"></div>
             </div>
@@ -202,7 +205,7 @@
                         </div>
                         <p>6% of all trademark <BR>registration applications</p>
                     </div>
-                    <img src="/assets/img/mix/seo-img-6.jpg" class="img-responsive" alt="">
+                    <img src="/assets/img/mix/ppc-img-4.jpg" class="img-responsive" alt="">
                 </div>
             </div>
             <div class="container">
@@ -235,7 +238,7 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 col-md-6">
                                 <div class="blog-img">
-                                    <img src="/assets/img/thumbnails/thumbnail-5.jpg" class="img-responsive" alt="">
+                                    <img src="/assets/img/thumbnails/thumbnail-9.jpg" class="img-responsive" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
@@ -257,7 +260,7 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 col-md-6">
                                 <div class="blog-img">
-                                    <img src="/assets/img/thumbnails/thumbnail-6.jpg" class="img-responsive" alt="">
+                                    <img src="/assets/img/thumbnails/thumbnail-10.jpg" class="img-responsive" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
@@ -279,7 +282,7 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 col-md-6">
                                 <div class="blog-img">
-                                    <img src="/assets/img/thumbnails/thumbnail-7.jpg" class="img-responsive" alt="">
+                                    <img src="/assets/img/thumbnails/thumbnail-11.jpg" class="img-responsive" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
@@ -301,7 +304,7 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 col-md-6">
                                 <div class="blog-img">
-                                    <img src="/assets/img/thumbnails/thumbnail-8.jpg" class="img-responsive" alt="">
+                                    <img src="/assets/img/thumbnails/thumbnail-12.jpg" class="img-responsive" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
@@ -325,32 +328,7 @@
         </div>
     </section>
 	
-    <section class="newsletter-sec bgc-iPrimary stripe">
-        <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-lg-5">
-                    <div class="news-content">
-                        <h3 class="h3 cl-white">Join Our Newsletter</h3>
-                        <p class="cl-white">Stay up to date with our latest news and updates</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="news-form">
-                        <form>
-                            <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Enter Your Email">
-                                <div class="btn-wrap">
-                                    <a href="javascript:;" class="btn btn-secondary">Subscribe</a>
-                                </div>
-                            </div>
-                        </form>
-                        <p>By subscribing, you agree to our Privacy Policy</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+	<!--#include virtual="/includes/cta.asp" -->
 	<!--#include virtual="/includes/footer.asp" -->
 	<!--#include virtual="/includes/scripts.asp" -->
 </body>

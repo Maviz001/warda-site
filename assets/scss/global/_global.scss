@@ -97,6 +97,9 @@
             border-color: $seo-primary;
             font-weight: 700;
         }
+        &.btn-white{
+            color: $seo-primary;
+        }
     }
     .service-head{
         a{
@@ -301,6 +304,15 @@
         }
     }
 
+    .news-content{
+        .h3, p{
+            color: $black !important;
+        }
+        &::before{
+            background-color: $black;
+        }
+    }
+
     .btn {
         &.btn-primary {
             background-color: $ppc-primary;
@@ -331,6 +343,9 @@
             background-color: $iSecondary;
             border-color: $iSecondary;
         }
+        p{
+            color: $black;
+        }
     }
 }
 
@@ -352,7 +367,7 @@
         &.btn-primary {
             background-color: $social-primary;
             border-color: $social-primary;
-            color: $black;
+            color: $white;
         }
         &.btn-white{
             color: $social-primary;

@@ -15,23 +15,23 @@
 <body class="web-page">
     <!--#include virtual="/includes/header.asp" -->
 
-    <div class="banner-inner bg-detail" style="background-image: url(/assets/img/bg/social-media-bg.jpg);">
-        <div class="container h-100">
-            <div class="row h-100 align-content-center">
-                <div class="col-lg-10">
-                    <div class="banner-content">
-                        <div class="sm-heading cl-iPrimary">Enhance your online presence with</div>
-                        <h1 class="h1">Website Design & Development <br><br class="d-block d-lg-none"><span
-                                class="bgc-iPrimary">That Loads Fast and Sells Faster</span></h1>
-                        <p>We specialize in creating sleek, fast, and conversion-optimized websites that not only rank
-                            well on Google but also keep visitors hooked and, most importantly, drive sales. </p>
-                        <p>If you're searching for web design companies near me or need a web design agency near me,
-                            you've come to the right place.</p>
+    <div class="banner gradient-5">
+		<div class="container">
+            <div class="banner-img bg-detail" style="background-image: url(/assets/img/bg/web-bg.jpg);">
+                <div class="overlay web"></div>
+                <div class="row">
+                    <div class="col-lg-10">
+                        <div class="banner-content">
+                            <h1 class="h1"><strong>Social Media Marketing Services: Trendier Than Your Competitors</strong></h1>
+                            <p><strong>If you're tired of posting and praying, it’s time to get serious about your social media marketing. We craft strategies that don’t just get you noticed—they get you loved. </strong></p>
+                            <p>Whether you need social media services, ads that actually convert, or a community that’s obsessed with your brand, we’ve got it covered.</p>
+                            <a href="javascript:;" class="btn btn-secondary">Upgrade My Biz</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+		</div>
+	</div>
 
     <section class="inner-sec stripe-3 pt-0">
         <div class="container">

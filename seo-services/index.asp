@@ -14,15 +14,18 @@
 <body class="seo-page">
 	<!--#include virtual="/includes/header.asp" -->
 
-	<div class="banner-inner bg-detail" style="background-image: url(/assets/img/bg/seo-bg.jpg);">
-		<div class="container h-100">
-            <div class="row h-100 align-content-center">
-                <div class="col-lg-9">
-                    <div class="banner-content">
-                        <div class="sm-heading cl-iPrimary">Professional SEO services </div>
-                        <h1 class="h1">Our Full Online SEO Services: <br><br class="d-block d-lg-none"><span class="bgc-iPrimary">More Clicks, More Customers</span></h1>
-                        <p>Tired of watching your competitors show up on Google while your website collects dust on page 10? We fix that. </p>
-                        <p>Our best SEO services are designed to get you seen, clicked, and converting—without any shady tactics or SEO jargon that makes your head spin.</p>
+	<div class="banner gradient-2">
+		<div class="container">
+            <div class="banner-img bg-detail" style="background-image: url(/assets/img/bg/seo-bg.jpg);">
+                <div class="overlay seo"></div>
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="banner-content">
+                            <h1 class="h1"><strong>Our Full Online SEO Services: <i>More Clicks, More Customers </i></strong></h1>
+                            <p><strong>Tired of watching your competitors show up on Google while your website collects dust on page 10? We fix that. </strong></p>
+                            <p>Our best SEO services are designed to get you seen, clicked, and converting—without any shady tactics or SEO jargon that makes your head spin.</p>
+                            <a href="javascript:;" class="btn btn-secondary">Upgrade My Biz</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -125,7 +128,7 @@
                         </div>
                         <p>We've made dreams a reality <br>for 2M+ entrepreneurs.</p>
                     </div>
-                    <img src="/assets/img/mix/seo-img-3.jpg" class="img-responsive" alt="">
+                    <img src="/assets/img/mix/seo-img-3.png" class="img-responsive" alt="">
                 </div>
                 <div class="flex-58"></div>
             </div>
@@ -349,32 +352,9 @@
         </div>
     </section>
 	
-    <section class="newsletter-sec bgc-iPrimary stripe">
-        <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-lg-5">
-                    <div class="news-content">
-                        <h3 class="h3 cl-white">Join Our Newsletter</h3>
-                        <p class="cl-white">Stay up to date with our latest news and updates</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="news-form">
-                        <form>
-                            <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Enter Your Email">
-                                <div class="btn-wrap">
-                                    <a href="javascript:;" class="btn btn-secondary">Subscribe</a>
-                                </div>
-                            </div>
-                        </form>
-                        <p>By subscribing, you agree to our Privacy Policy</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
+	<!--#include virtual="/includes/cta.asp" -->
 	<!--#include virtual="/includes/footer.asp" -->
 	<!--#include virtual="/includes/scripts.asp" -->
 </body>
