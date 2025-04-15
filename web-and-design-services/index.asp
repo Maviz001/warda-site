@@ -22,9 +22,9 @@
                 <div class="row">
                     <div class="col-lg-10">
                         <div class="banner-content">
-                            <h1 class="h1"><strong>Social Media Marketing Services: Trendier Than Your Competitors</strong></h1>
-                            <p><strong>If you're tired of posting and praying, it’s time to get serious about your social media marketing. We craft strategies that don’t just get you noticed—they get you loved. </strong></p>
-                            <p>Whether you need social media services, ads that actually convert, or a community that’s obsessed with your brand, we’ve got it covered.</p>
+                            <h1 class="h1"><strong>Website Design & Development <i>That Loads Fast and Sells Faster</i></strong></h1>
+                            <p><strong>We specialize in creating sleek, fast, and conversion-optimized websites that not only rank well on Google but also keep visitors hooked and, most importantly, drive sales. </strong></p>
+                            <p>If you're searching for web design companies near me or need a web design agency near me, you've come to the right place.</p>
                             <a href="javascript:;" class="btn btn-secondary">Upgrade My Biz</a>
                         </div>
                     </div>
@@ -43,7 +43,7 @@
         </div>
         <div class="inner-wrap sty">
             <div class="container">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="inner-content mt-0">
                             <h3 class="h3">Web Design <span class="fw-400">&</span> Development <span
@@ -238,18 +238,17 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 col-md-6">
                                 <div class="blog-img">
-                                    <img src="/assets/img/thumbnails/thumbnail-5.jpg" class="img-responsive" alt="">
+                                    <img src="/assets/img/thumbnails/thumbnail-17.jpg" class="img-responsive" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="service-head">
-                                    <a href="javascript:;">PPC Management</a>
+                                    <a href="javascript:;">Website Creation</a>
                                     <span>5 mins read</span>
                                 </div>
                                 <div class="blog-content">
-                                    <h5 class="h5">Maximizing Your Google Ads Budget (So You Don’t Go Broke)</h5>
-                                    <p>Google Ads can drain your budget if you let it. But with a few smart strategies,
-                                        you can make sure every dollar works hard for you, not against you.</p>
+                                    <h5 class="h5">The 5 Biggest Web Design Mistakes (And How to Avoid Them)</h5>
+                                    <p>A website isn’t just about looking pretty—it needs to work. We break down the biggest design disasters that drive visitors away (and how to fix them).</p>
                                     <a href="javascript:;">Learn More</a>
                                 </div>
                             </div>
@@ -261,19 +260,17 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 col-md-6">
                                 <div class="blog-img">
-                                    <img src="/assets/img/thumbnails/thumbnail-6.jpg" class="img-responsive" alt="">
+                                    <img src="/assets/img/thumbnails/thumbnail-18.jpg" class="img-responsive" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="service-head">
-                                    <a href="javascript:;">PPC Strategy</a>
+                                    <a href="javascript:;">Landing Pages</a>
                                     <span>5 mins read</span>
                                 </div>
                                 <div class="blog-content">
-                                    <h5 class="h5">Retargeting Ads: Bring Back the People Who Almost Bought (But Didn’t)
-                                    </h5>
-                                    <p>Don’t let potential customers slip through your fingers. Learn how retargeting
-                                        ads can remind them why they need your product.</p>
+                                    <h5 class="h5">Landing Pages That Actually Convert—What You’re Doing Wrong</h5>
+                                    <p>If your landing page isn’t turning visitors into leads, something’s off. We reveal the biggest mistakes and the tweaks that actually get results.</p>
                                     <a href="javascript:;">Learn More</a>
                                 </div>
                             </div>
@@ -285,18 +282,17 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 col-md-6">
                                 <div class="blog-img">
-                                    <img src="/assets/img/thumbnails/thumbnail-7.jpg" class="img-responsive" alt="">
+                                    <img src="/assets/img/thumbnails/thumbnail-19.jpg" class="img-responsive" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="service-head">
-                                    <a href="javascript:;">Social Media Advertising</a>
+                                    <a href="javascript:;"> E-Commerce Websites</a>
                                     <span>5 mins read</span>
                                 </div>
                                 <div class="blog-content">
-                                    <h5 class="h5">Facebook Ads: How to Get Scrolling Thumbs to Click</h5>
-                                    <p>Stop wasting money on Facebook ads that don’t convert. Here’s how to create
-                                        campaigns that’ll make people stop scrolling—and start buying.</p>
+                                    <h5 class="h5">E-Commerce Website SEO: How to Get More Sales (Without Ads)</h5>
+                                    <p>SEO is your best unpaid employee. Learn how to optimize your online store so customers find you instead of your competitors.</p>
                                     <a href="javascript:;">Learn More</a>
                                 </div>
                             </div>
@@ -308,18 +304,17 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 col-md-6">
                                 <div class="blog-img">
-                                    <img src="/assets/img/thumbnails/thumbnail-8.jpg" class="img-responsive" alt="">
+                                    <img src="/assets/img/thumbnails/thumbnail-20.jpg" class="img-responsive" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="service-head">
-                                    <a href="javascript:;">PPC Strategy</a>
+                                    <a href="javascript:;">Website Redesign</a>
                                     <span>5 mins read</span>
                                 </div>
                                 <div class="blog-content">
-                                    <h5 class="h5">5 PPC Mistakes Everyone Makes (And How to Avoid Them)</h5>
-                                    <p>We’ve all made PPC mistakes. Let us show you how to avoid the most common ones
-                                        and start seeing results from day one.</p>
+                                    <h5 class="h5">Website Redesign Checklist—Is It Time to Upgrade?</h5>
+                                    <p>If your site is slow, outdated, or just meh, you’re losing business. Here’s how to know when it’s time for a redesign (and what to do about it).</p>
                                     <a href="javascript:;">Learn More</a>
                                 </div>
                             </div>
@@ -333,32 +328,7 @@
         </div>
     </section>
 
-    <section class="newsletter-sec bgc-iPrimary stripe">
-        <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-lg-5">
-                    <div class="news-content">
-                        <h3 class="h3 cl-white">Join Our Newsletter</h3>
-                        <p class="cl-white">Stay up to date with our latest news and updates</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="news-form">
-                        <form>
-                            <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Enter Your Email">
-                                <div class="btn-wrap">
-                                    <a href="javascript:;" class="btn btn-secondary">Subscribe</a>
-                                </div>
-                            </div>
-                        </form>
-                        <p>By subscribing, you agree to our Privacy Policy</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    <!--#include virtual="/includes/cta.asp" -->
     <!--#include virtual="/includes/footer.asp" -->
     <!--#include virtual="/includes/scripts.asp" -->
 </body>

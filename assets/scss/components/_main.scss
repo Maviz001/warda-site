@@ -606,6 +606,14 @@
     .h3{
         margin-bottom: 10px;
     }
+    &.sty{
+        .sec-content{
+            margin-left: -20px;
+            @media (max-width:991px){
+                margin-left: 0;
+            }
+        }
+    }
 }
 
 .box-wrap{

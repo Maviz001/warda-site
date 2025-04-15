@@ -146,7 +146,19 @@ input::-ms-clear {
     &.web{
         background-color: transparent;
         background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #AF52DE;
-        background-image: linear-gradient(0deg, #000000 -25%, rgba(255, 255, 255, 0) 100%);
+        background-image: linear-gradient(0deg, #000000 -100%, rgba(255, 255, 255, 0) 100%);
+        mix-blend-mode: multiply;
+    }
+    &.cont{
+        background-color: transparent;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #43C89C;
+        background-image: linear-gradient(0deg, #000000 -100%, rgba(255, 255, 255, 0) 100%);
+        mix-blend-mode: multiply;
+    }
+    &.brand{
+        background-color: transparent;
+        background: rgba(#3A62FF, 0.7);
+        background-image: linear-gradient(0deg, #000000 -100%, rgba(255, 255, 255, 0) 100%);
         mix-blend-mode: multiply;
     }
 }
@@ -234,6 +246,12 @@ input::-ms-clear {
     }
     &-5{
         background: linear-gradient(180deg, #F4DEFF 0%, #FFFFFF 100%);
+    }
+    &-6{
+        background: linear-gradient(180deg, #E6FFF7 0%, #FFFFFF 100%);
+    }
+    &-7{
+        background: linear-gradient(180deg, #E6FFF7 0%, #FFFFFF 100%);
     }
 }
 

@@ -15,20 +15,22 @@
 <body class="brand-marketing-page">
     <!--#include virtual="/includes/header.asp" -->
 
-    <div class="banner-inner bg-detail" style="background-image: url(/assets/img/bg/brand-bg.jpg);">
-        <div class="container h-100">
-            <div class="row h-100 align-content-center">
-                <div class="col-lg-9">
-                    <div class="banner-content">
-                        <div class="sm-heading cl-iPrimary">Branding & Graphic Design Services</div>
-                        <h1 class="h1">The Power of  <br><br class="d-block d-lg-none"><span
-                                class="bgc-iPrimary">Graphic Design and Branding</span></h1>
-                        <p>Having a strong graphic brand design is like wearing a tailored suit to a business meeting—you stand out, make a great first impression, and nobody mistakes you for the intern.</p>
+    <div class="banner gradient-7">
+		<div class="container">
+            <div class="banner-img bg-detail" style="background-image: url(/assets/img/bg/branding-bg.png);">
+                <div class="overlay brand"></div>
+                <div class="row">
+                    <div class="col-lg-10">
+                        <div class="banner-content">
+                            <h1 class="h1"><strong>The Power of Graphic Design and Branding </strong></h1>
+                            <p><strong>Having a strong graphic brand design is like wearing a tailored suit to a business meeting—you stand out, make a great first impression, and nobody mistakes you for the intern.</p>
+                            <a href="javascript:;" class="btn btn-secondary">Upgrade My Biz</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+		</div>
+	</div>
 
     <section class="inner-sec stripe-3 pt-0">
         <div class="container">
@@ -40,7 +42,7 @@
         </div>
         <div class="inner-wrap sty">
             <div class="container">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="inner-content mt-0">
                             <h3 class="h3">Why Branding and Graphic Design Services Matter</h3>
@@ -110,7 +112,7 @@
         </div>
     </section>
 
-    <section class="stripe-4 approach-sec">
+    <section class="stripe-4 approach-sec sty">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
@@ -178,7 +180,7 @@
                 <div class="row">
                     <div class="col-lg-7">
                         <div class="inner-content">
-                            <h3 class="h3 cl-seagreen">Logo Design – <span class="fw-400">Your Brand’s First Impression</span></h3>
+                            <h3 class="h3 cl-seagreen">Logo Design – <span class="fw-400">Your <br>Brand’s First Impression</span></h3>
                             <p>They say, “Don’t judge a book by its cover.” Well, we all know that’s a lie. </p>
                             <p>Your logo and graphic design determine whether customers see you as a serious business or a garage startup still figuring things out. </p>
                             <p>We specialize in creating custom logo graphic designs that reflect your business’s unique identity. </p>

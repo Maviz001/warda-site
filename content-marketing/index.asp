@@ -15,20 +15,23 @@
 <body class="content-marketing-page">
     <!--#include virtual="/includes/header.asp" -->
 
-    <div class="banner-inner bg-detail" style="background-image: url(/assets/img/bg/social-media-bg.jpg);">
-        <div class="container h-100">
-            <div class="row h-100 align-content-center">
-                <div class="col-lg-12">
-                    <div class="banner-content">
-                        <div class="sm-heading cl-iPrimary">Content is King</div>
-                        <h1 class="h1">Content Marketing Services <br><br class="d-block d-lg-none"><span
-                                class="bgc-iPrimary">Fuel Your Brand with High-Impact Content</span></h1>
-                        <p>At Ranked Marketing, we don’t just create content marketing content—we craft compelling stories, backed by data, that hook your audience and keep them coming back for more.</p>
+    <div class="banner gradient-6">
+		<div class="container">
+            <div class="banner-img bg-detail" style="background-image: url(/assets/img/bg/content.jpg);">
+                <div class="overlay cont"></div>
+                <div class="row">
+                    <div class="col-lg-10">
+                        <div class="banner-content">
+                            <h1 class="h1"><strong>Content Marketing Services: Fuel Your Brand with High-Impact Content</strong></h1>
+                            <p><strong>At Ranked Marketing, we don’t just create content marketing content—we craft compelling stories, backed by data, that hook your audience and keep them coming back for more.</strong></p>
+                            <p>Content is King. </p>
+                            <a href="javascript:;" class="btn btn-secondary">Upgrade My Biz</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+		</div>
+	</div>
 
     <section class="inner-sec stripe-3 pt-0">
         <div class="container">
@@ -44,7 +47,6 @@
                     <div class="col-lg-6">
                         <div class="inner-content mt-0">
                             <h3 class="h3"><span class="fw-400">Make</span> Content Marketing <span class="fw-400">Work for You</span></h3>
-                            <p><strong>Because a Bad Website is Like a Bad Haircut—Everyone Notices</strong></p>
                             <p>High-impact content marketing strategies involve a mix of blog posts, social media updates, email campaigns, and SEO-driven website content that speaks directly to your audience's needs. </p>
                             <p>At Ranked Marketing, we blend creativity with data-driven insights to deliver content that converts. Our approach ensures your brand stays visible, relevant, and engaging across all platforms. </p>
                             <p>Whether you need blog content, website copy, or email campaigns, we create tailored strategies that align with your goals.</p>
@@ -224,9 +226,9 @@
     <section class="stripe-3">
         <div class="container">
             <div class="top-heading text-left">
-                <div class="sub-heading"><strong>Resources</strong></div>
-                <h3 class="h3">Our Web Design & Development Blogs</h3>
-                <p>Smart strategies, SEO secrets, and web design hacks to make your site work harder (so you don’t have to).</p>
+                <div class="sub-heading"><strong>Academy</strong></div>
+                <h3 class="h3">Stay Informed with Our Blogs</h3>
+                <p>Stay informed with our insightful blogs covering the latest trends, expert advice, and industry news to keep you ahead in business.</p>
             </div>
             <div class="row">
                 <div class="col-lg-6 col-md-12">
@@ -234,18 +236,17 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 col-md-6">
                                 <div class="blog-img">
-                                    <img src="/assets/img/thumbnails/thumbnail-5.jpg" class="img-responsive" alt="">
+                                    <img src="/assets/img/thumbnails/thumbnail-21.jpg" class="img-responsive" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="service-head">
-                                    <a href="javascript:;">PPC Management</a>
+                                    <a href="javascript:;">Web & Design Services</a>
                                     <span>5 mins read</span>
                                 </div>
                                 <div class="blog-content">
-                                    <h5 class="h5">Maximizing Your Google Ads Budget (So You Don’t Go Broke)</h5>
-                                    <p>Google Ads can drain your budget if you let it. But with a few smart strategies,
-                                        you can make sure every dollar works hard for you, not against you.</p>
+                                    <h5 class="h5">The Benefits of Registering Multiple Domain Names</h5>
+                                    <p>Explores the advantages of securing multiple domain names for brand protection and marketing.</p>
                                     <a href="javascript:;">Learn More</a>
                                 </div>
                             </div>
@@ -257,19 +258,17 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 col-md-6">
                                 <div class="blog-img">
-                                    <img src="/assets/img/thumbnails/thumbnail-6.jpg" class="img-responsive" alt="">
+                                    <img src="/assets/img/thumbnails/thumbnail-22.jpg" class="img-responsive" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="service-head">
-                                    <a href="javascript:;">PPC Strategy</a>
+                                    <a href="javascript:;">Web & Design Services</a>
                                     <span>5 mins read</span>
                                 </div>
                                 <div class="blog-content">
-                                    <h5 class="h5">Retargeting Ads: Bring Back the People Who Almost Bought (But Didn’t)
-                                    </h5>
-                                    <p>Don’t let potential customers slip through your fingers. Learn how retargeting
-                                        ads can remind them why they need your product.</p>
+                                    <h5 class="h5">The Benefits of Domain Privacy Protection</h5>
+                                    <p>Explains what domain privacy protection is and why it’s important for your business.</p>
                                     <a href="javascript:;">Learn More</a>
                                 </div>
                             </div>
@@ -281,18 +280,17 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 col-md-6">
                                 <div class="blog-img">
-                                    <img src="/assets/img/thumbnails/thumbnail-7.jpg" class="img-responsive" alt="">
+                                    <img src="/assets/img/thumbnails/thumbnail-15.jpg" class="img-responsive" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="service-head">
-                                    <a href="javascript:;">Social Media Advertising</a>
+                                    <a href="javascript:;">Web & Design Services</a>
                                     <span>5 mins read</span>
                                 </div>
                                 <div class="blog-content">
-                                    <h5 class="h5">Facebook Ads: How to Get Scrolling Thumbs to Click</h5>
-                                    <p>Stop wasting money on Facebook ads that don’t convert. Here’s how to create
-                                        campaigns that’ll make people stop scrolling—and start buying.</p>
+                                    <h5 class="h5">The Power of Micro interactions in Web Design</h5>
+                                    <p>Discusses how small design elements like micro interactions can enhance user engagement and satisfaction.</p>
                                     <a href="javascript:;">Learn More</a>
                                 </div>
                             </div>
@@ -304,18 +302,17 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 col-md-6">
                                 <div class="blog-img">
-                                    <img src="/assets/img/thumbnails/thumbnail-8.jpg" class="img-responsive" alt="">
+                                    <img src="/assets/img/thumbnails/thumbnail-16.jpg" class="img-responsive" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="service-head">
-                                    <a href="javascript:;">PPC Strategy</a>
+                                    <a href="javascript:;">Web & Design Services</a>
                                     <span>5 mins read</span>
                                 </div>
                                 <div class="blog-content">
-                                    <h5 class="h5">5 PPC Mistakes Everyone Makes (And How to Avoid Them)</h5>
-                                    <p>We’ve all made PPC mistakes. Let us show you how to avoid the most common ones
-                                        and start seeing results from day one.</p>
+                                    <h5 class="h5">The Importance of UX in Web Design</h5>
+                                    <p>Registering an LLC (Limited Liability Company) can provide numerous tax benefits for small business owners. </p>
                                     <a href="javascript:;">Learn More</a>
                                 </div>
                             </div>
@@ -329,32 +326,7 @@
         </div>
     </section>
 
-    <section class="newsletter-sec bgc-iPrimary stripe">
-        <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-lg-5">
-                    <div class="news-content">
-                        <h3 class="h3 cl-white">Join Our Newsletter</h3>
-                        <p class="cl-white">Stay up to date with our latest news and updates</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="news-form">
-                        <form>
-                            <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Enter Your Email">
-                                <div class="btn-wrap">
-                                    <a href="javascript:;" class="btn btn-secondary">Subscribe</a>
-                                </div>
-                            </div>
-                        </form>
-                        <p>By subscribing, you agree to our Privacy Policy</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    <!--#include virtual="/includes/cta.asp" -->
     <!--#include virtual="/includes/footer.asp" -->
     <!--#include virtual="/includes/scripts.asp" -->
 </body>
