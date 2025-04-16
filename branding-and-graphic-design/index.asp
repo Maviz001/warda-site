@@ -269,18 +269,17 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 col-md-6">
                                 <div class="blog-img">
-                                    <img src="/assets/img/thumbnails/thumbnail-5.jpg" class="img-responsive" alt="">
+                                    <img src="/assets/img/thumbnails/thumbnail-23.jpg" class="img-responsive" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="service-head">
-                                    <a href="javascript:;">PPC Management</a>
+                                    <a href="javascript:;">Logo Design</a>
                                     <span>5 mins read</span>
                                 </div>
                                 <div class="blog-content">
-                                    <h5 class="h5">Maximizing Your Google Ads Budget (So You Don’t Go Broke)</h5>
-                                    <p>Google Ads can drain your budget if you let it. But with a few smart strategies,
-                                        you can make sure every dollar works hard for you, not against you.</p>
+                                    <h5 class="h5">Why Your Business Needs a Custom Logo Design</h5>
+                                    <p>Learn why a custom logo graphic design is essential for building your brand's first impression and recognition.</p>
                                     <a href="javascript:;">Learn More</a>
                                 </div>
                             </div>
@@ -292,19 +291,17 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 col-md-6">
                                 <div class="blog-img">
-                                    <img src="/assets/img/thumbnails/thumbnail-6.jpg" class="img-responsive" alt="">
+                                    <img src="/assets/img/thumbnails/thumbnail-24.jpg" class="img-responsive" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="service-head">
-                                    <a href="javascript:;">PPC Strategy</a>
+                                    <a href="javascript:;">Brand Strategy</a>
                                     <span>5 mins read</span>
                                 </div>
                                 <div class="blog-content">
-                                    <h5 class="h5">Retargeting Ads: Bring Back the People Who Almost Bought (But Didn’t)
-                                    </h5>
-                                    <p>Don’t let potential customers slip through your fingers. Learn how retargeting
-                                        ads can remind them why they need your product.</p>
+                                    <h5 class="h5">How Brand Strategy and Graphic Design Work Together to Build a Memorable Brand</h5>
+                                    <p>Discover the key differences between branding and graphic design and how they shape your business identity.</p>
                                     <a href="javascript:;">Learn More</a>
                                 </div>
                             </div>
@@ -316,18 +313,17 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 col-md-6">
                                 <div class="blog-img">
-                                    <img src="/assets/img/thumbnails/thumbnail-7.jpg" class="img-responsive" alt="">
+                                    <img src="/assets/img/thumbnails/thumbnail-25.jpg" class="img-responsive" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="service-head">
-                                    <a href="javascript:;">Social Media Advertising</a>
+                                    <a href="javascript:;">Graphic Design</a>
                                     <span>5 mins read</span>
                                 </div>
                                 <div class="blog-content">
-                                    <h5 class="h5">Facebook Ads: How to Get Scrolling Thumbs to Click</h5>
-                                    <p>Stop wasting money on Facebook ads that don’t convert. Here’s how to create
-                                        campaigns that’ll make people stop scrolling—and start buying.</p>
+                                    <h5 class="h5">The Secret to Polished Marketing Materials with Graphic Design Branding</h5>
+                                    <p>Find out how graphic design branding services can enhance your marketing efforts and elevate your brand image.</p>
                                     <a href="javascript:;">Learn More</a>
                                 </div>
                             </div>
@@ -339,18 +335,17 @@
                         <div class="row align-items-center">
                             <div class="col-lg-6 col-md-6">
                                 <div class="blog-img">
-                                    <img src="/assets/img/thumbnails/thumbnail-8.jpg" class="img-responsive" alt="">
+                                    <img src="/assets/img/thumbnails/thumbnail-26.jpg" class="img-responsive" alt="">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6">
                                 <div class="service-head">
-                                    <a href="javascript:;">PPC Strategy</a>
+                                    <a href="javascript:;">Website Branding</a>
                                     <span>5 mins read</span>
                                 </div>
                                 <div class="blog-content">
-                                    <h5 class="h5">5 PPC Mistakes Everyone Makes (And How to Avoid Them)</h5>
-                                    <p>We’ve all made PPC mistakes. Let us show you how to avoid the most common ones
-                                        and start seeing results from day one.</p>
+                                    <h5 class="h5">How Professional Branding and Graphic Design Elevate Your Website's Credibility</h5>
+                                    <p>Understand the importance of branding and graphic design services in creating a  consistent website that builds trust.</p>
                                     <a href="javascript:;">Learn More</a>
                                 </div>
                             </div>
@@ -364,31 +359,7 @@
         </div>
     </section>
 
-    <section class="newsletter-sec bgc-iPrimary stripe">
-        <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-lg-5">
-                    <div class="news-content">
-                        <h3 class="h3 cl-white">Join Our Newsletter</h3>
-                        <p class="cl-white">Stay up to date with our latest news and updates</p>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="news-form">
-                        <form>
-                            <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Enter Your Email">
-                                <div class="btn-wrap">
-                                    <a href="javascript:;" class="btn btn-secondary">Subscribe</a>
-                                </div>
-                            </div>
-                        </form>
-                        <p>By subscribing, you agree to our Privacy Policy</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!--#include virtual="/includes/cta.asp" -->
 
     <!--#include virtual="/includes/footer.asp" -->
     <!--#include virtual="/includes/scripts.asp" -->

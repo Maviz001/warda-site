@@ -721,3 +721,112 @@
         background-color: $brand-primary;
     }
 }
+
+.cart-img{
+    padding: 15px 35px;
+    border-radius: 12px;
+    border: 1px solid #C1CBFF;
+    margin-bottom: 20px;
+    img{
+        border-radius: 12px;
+    }
+}
+
+.cart-box{
+    margin: 20px 0;
+    p{
+        @include fontCalcSize(18 , 15);
+        text-align: center;
+        font-style: italic;
+        span{
+            font-style: normal;
+            display: block;
+            font-weight: 600;
+        }
+    }
+}
+
+.resource-sec{
+    .top-heading{
+        p{
+            @include fontCalcSize(24 , 18);
+        }
+    }
+    .h6{
+        @include fontCalcSize(28 , 20);
+        font-weight: 700;
+        margin-bottom: 0;
+    }
+    .sec-img{
+        border-radius: 12px;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 20px
+    }
+    p{
+        @include fontCalcSize(18 , 15);
+    } 
+    .box-content{
+        .h6{
+            margin-bottom: 15px;
+        }
+    }
+    &.sty{
+        .h6{
+            @include fontCalcSize(24 , 18);
+            font-weight: 700;
+            margin-bottom: 0;
+        }
+        p{
+            @include fontCalcSize(16 , 14);
+            margin-bottom: 0;
+            span{
+                font-weight: 600;
+            }
+        }
+        .abs-box{
+            position: absolute;
+            left: 30px;
+            bottom: 30px;
+            padding-left: 20px;
+            border-left: 6px solid #00B67A;
+            .h6{
+                margin-bottom: 10px
+            }
+            p{
+                @include fontCalcSize(16 , 14);
+                font-weight: 600;
+                margin-bottom: 0;
+            }
+        }
+        .sec-inner-wrap{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            .sec-img{
+                flex: 0 0 30%;
+                max-width:30%;
+                margin: 0;
+            }
+            .box-content{
+                margin-left: 10px;
+                h6.h6{
+                    font-weight: 600;
+                    @include fontCalcSize(16 , 14);
+                    margin-bottom: 10px;
+                }
+                p{
+                    @include fontCalcSize(14 , 11);
+                    span{
+                    font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.sec-wrap {
+    margin: 15px 0;
+}
