@@ -51,6 +51,7 @@ function doOnReady() {
 	initMenuActive('.js-menu');
 	initMobileMenuDropDown();
 	mobileSlider();
+	contactForm();
 	showMoreless('.js-mkfootaccor', '.js-expand-btn', 8, 'li', 'Hide All', 'View More');
 	$('body').on('click', '.js-menubtn:not(.is--active)', function () {
 		sideMenuOpen();
@@ -85,6 +86,7 @@ function doOnLoad() {
 	activeLink();
     initEqualHeight();
 	checkviewport('.js-viewport');
+	initIntlInput('.js-byphone');
 	initHtmlAppender('.js-reanderhtml');
 	$('.js-loaderscreen').fadeOut();
 }
@@ -652,4 +654,155 @@ function mobileSlider(){
 	} else {
 		//$('.js-mobile-slider').slick('unslick');
 	}
+}
+
+function contactForm(){
+    const form = document.getElementById('form');
+    setTimeout(function() { 
+        $('#email, #name, #phone').on('keyup', function(){
+            var email = $('#email').val().trim();
+            var name = $('#name').val().trim();
+            var phone = $('#phone').val().trim();
+            // if(email !== "" && name !=="" && phone !==""){
+            //     $('.captcha-wrap').addClass('d-flex');
+            //     $('.js-submitbtn').addClass("is-disabled");
+            // }
+            });
+        }, 500);
+    form.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        document.querySelectorAll('.error-field').forEach(el => el.classList.remove('error-field'));
+
+        let isValid = true;
+
+        const fields = [
+            document.getElementById('email'), 
+            document.getElementById('name'), 
+            document.getElementById('phone'), 
+            document.getElementById('message')
+        ];
+
+        fields.forEach(field => {
+            if (!field.value.trim() || (field.type === "email" && !validateEmail(field.value))) {
+                field.classList.add('error-field');
+                isValid = false;
+            }
+        });
+        if (isValid) {
+                    const formData = new FormData(form);
+                    const object = Object.fromEntries(formData);
+        
+                    const name = document.getElementById('name').value;
+                    object.subject = `${name}`;
+        
+                  
+                    const message = document.getElementById('message').value;
+                    object.message = message; 
+        
+                    const json = JSON.stringify(object);
+        
+                    fetch('https://api.web3forms.com/submit', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Accept': 'application/json'
+                        },
+                        body: json
+                    })
+                    .then(response => {
+                        if (response.ok) {
+                            form.reset();
+                            ThankYouMess();
+                            $('.captcha-wrap').removeClass('d-flex');
+                            openPopup('.form-popup');
+                        } else {
+                            console.error('Submission failed');
+                        }
+                    })
+                    .catch(error => console.error(error));
+                
+                   }
+          
+                   
+    });
+
+   
+    function validateEmail(email) {
+        const re = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+        return re.test(String(email).toLowerCase());
+    }
+}
+
+
+function ThankYouMess() {
+    const messageElements = document.getElementsByClassName('successMessage');
+  
+    if (messageElements.length > 0) {
+        const messageDiv = messageElements[0];'successMessage'
+        messageDiv.style.display = 'block';
+        messageDiv.scrollIntoView({
+            behavior: 'smooth', 
+            block: 'center'    
+        });
+        setTimeout(function() {
+            messageDiv.style.display = 'none';
+        }, 5000);
+    }
+}
+
+
+function initIntlInput(target) {
+    // ok
+    if ($(target).length > 0) {
+        var $target = $(target);
+        $target.each(function(i, e) {
+            var $e = $(e);
+            var dcountry = $e.data('defaultcountry');
+            $e.intlTelInput({
+                geoIpLookup: function(callback) {
+                    var referrer;
+                    $.ajax({
+                        url: 'https://crmalert.gocrmlive.com/api/GeoLocations/FindGeoLocation',
+                        type: 'GET',
+                        data: {}, // Additional parameters here
+                        dataType: 'json',
+                        aync: false,
+                        success: function(data) {
+                            referrer = document.referrer;
+                            JsonLocation = JSON.stringify(data);
+                            createCookie('ipcountrydata', JSON.stringify(data), 0.5);
+                            if (data.country_code) {
+                                callback(data.country_code);
+                            }
+                            console.log(JsonLocation);
+                            //sendVisitor(data.ip,data.country_code,JsonLocation);
+                        },
+                        error: function(err) {
+                            console.log(err);
+                        }
+                    });
+                },
+                //dropdownContainer: $('body'),
+                initialCountry: 'ca',
+                nationalMode: true,
+                separateDialCode: true,
+                autoPlaceholder: 'polite',
+                utilsScript: "/assets/js/utils.js",
+            });
+            setTimeout(function() {
+                var changeCountry = $e.intlTelInput("getSelectedCountryData");
+                $e.parents('.iti-group').find('.countryname').val(changeCountry.name);
+                $e.parents('.iti-group').find('.countrycode').val(changeCountry.iso2);
+                $e.parents('.iti-group').find('.dialcode').val(changeCountry.dialCode);
+            }, 1000);
+        });
+        $target.on('countrychange', function(e, countryData) {
+            var $e = $(e.currentTarget);
+            var changeCountry = $e.intlTelInput("getSelectedCountryData");
+            $e.parents('.iti-group').find('.countryname').val(changeCountry.name);
+            $e.parents('.iti-group').find('.countrycode').val(changeCountry.iso2);
+            $e.parents('.iti-group').find('.dialcode').val(changeCountry.dialCode);
+        });
+    }
 }

@@ -9,11 +9,15 @@
             </div>
             <div class="col-lg-6">
                 <div class="news-form">
-                    <form>
+                    <form method="POST" id="form" novalidate>
                         <div class="form-group">
-                            <input type="email" class="form-control" placeholder="Enter Your Email">
+                            <input type="hidden" name="access_key" value="ae4f1da4-f11b-424c-9930-e390fb786f09">
+                            <input type="hidden" name="subject" id="subject" value="">
+                            <input type="checkbox" name="botcheck" id="" style="display: none;">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Enter Email Address" required>
                             <div class="btn-wrap">
-                                <a href="javascript:;" class="btn btn-secondary">Subscribe</a>
+                                <button type="submit" class="btn btn-secondary js-submitbtn" value="0">Subscribe</button>
+                                <div class="successMessage" style="display:none;">Your form has been submitted</div>
                             </div>
                         </div>
                     </form>

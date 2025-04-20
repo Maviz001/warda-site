@@ -322,6 +322,8 @@
     cursor: pointer;
     p{
         margin: 0;
+        flex: 0 0 80%;
+        max-width: 80%;
     }
     .icon{
         height: 26px;
@@ -467,6 +469,9 @@
             @include fontCalcSize(17 , 14);
             color: $iGray5;
         }
+    }
+    .successMessage{
+        position: relative;
     }
     .btn{
         padding: 13px 40px !important;
@@ -830,3 +835,74 @@
 .sec-wrap {
     margin: 15px 0;
 }
+
+.blog-page-content{
+    .h3{
+        @include fontCalcSize(42 , 25);
+    }
+    .h4{
+        @include fontCalcSize(30 , 21);
+    }
+    p{
+        @include fontCalcSize(20 , 16);
+        margin-bottom: 25px;    
+    }
+    ul{
+        margin-bottom: 30px;
+        li{
+        @include fontCalcSize(20 , 16);
+        margin-bottom: 25px;
+        padding-left: 20px;
+        position: relative;
+        &::before{
+            content: "";
+            position: absolute;
+            top: 8px;
+            left: 0;
+            height: 10px;
+            width: 10px;
+            border-radius: 50%;
+            background-color: $iPrimary;
+        }   
+        }
+    }
+    @media (max-width:991px){
+        p{
+        margin-bottom: 20px;    
+        }
+        ul{
+            margin-bottom: 20px;    
+            li{
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+.relate-wrap{
+    padding: 40px 0 40px 30px;
+    background-color: #F5F7FF;
+    border-radius: 12px;
+    .h4{
+        @include fontCalcSize(30 , 21);
+        font-weight: 400;
+    }
+}
+
+.relate-sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #BFBFBF;
+    .rel-img{
+        flex: 0 0 95px;
+        max-width:95px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .rel-content{
+        margin-left: 20px;
+    }
+}
+
